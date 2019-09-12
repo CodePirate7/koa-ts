@@ -1,6 +1,4 @@
 // process.env.NODE_ENV ? 
-
-
 const devConfig = {
   name: 'Koa-ts 模板',
   port: 3000,
