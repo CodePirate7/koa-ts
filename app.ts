@@ -9,7 +9,10 @@ const app = createKoaServer({
    controllers
 });
 
+
+// 设置静态资源目录
 app.use( Static(__dirname + '/public/image') );
+// 请求日志信息
 app.use( Logger() );
 
 app.listen( config.port ,() => {
